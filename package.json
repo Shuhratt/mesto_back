@@ -1,0 +1,36 @@
+{
+  "name": "mesto_back",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "lint": "npx eslint src/**/*.ts",
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/app.ts"
+  },
+  "keywords": [],
+  "author": "Shuhrat",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "typescript": "^5.8.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.7.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/mongodb": "^4.0.6",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
